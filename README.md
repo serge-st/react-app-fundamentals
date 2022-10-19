@@ -1,5 +1,7 @@
 # This app was created in order to tackle the main React functionality.
 
+! TO LOGIN JUST PRESS LOGIN BUTTON
+
 ## Application functionality:
 
 1. Single page application
