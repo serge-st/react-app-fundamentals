@@ -9,7 +9,7 @@ const About: FC = () => {
     !height
       ? null
       : <div
-          className=".about"
+          className="about"
           style={{
             height
           }}
