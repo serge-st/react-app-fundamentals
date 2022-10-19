@@ -1,6 +1,9 @@
 # This app was created in order to tackle the main React functionality.
 
-! TO LOGIN JUST PRESS LOGIN BUTTON
+## How To launch:
+
+1. Go to [App Page Hosted On Heroku](https://powerful-brushlands-55390.herokuapp.com/)
+2. To Login just press Login button
 
 ## Application functionality:
 
