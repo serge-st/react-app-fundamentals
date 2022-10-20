@@ -11,3 +11,9 @@
     display: flex;
     gap: 6px;
 }
+
+@media only screen and (max-width: 600px) {
+    .post__btns {
+      flex-direction: column;
+    }
+  }

@@ -35,9 +35,9 @@ const PostIdPage: FC = () => {
     <div>
       {(post == null) || isLoading || isCommentsLoading
         ? <Loader />
-        : <div>
+        : <div className='post__container'>
           <h1 className="post__header">{capitalize(post?.title)}</h1>
-          <div className="post__container">
+          <div className="post__body">
             <h3>Post ID: {id}</h3>
             <h3>Description:</h3>
             <p>{post?.body}</p>

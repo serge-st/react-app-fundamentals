@@ -3,14 +3,6 @@ import { FC } from 'react'
 import Button from '../UI/Button/Button'
 import { useHistory } from 'react-router-dom'
 import { IPost } from '../../types/types'
-
-// TODO delete this interface
-export interface Post {
-  id: number
-  title: string | ''
-  body: string | ''
-}
-
 export interface PostItemProps {
   post: IPost
   number: number
@@ -23,10 +15,14 @@ const PostItem: FC<PostItemProps> = ({ post: { title, body, id }, remove }) => {
   return (
     <div className="post">
       <div>
-        <strong>
+        <strong style={{
+          wordWrap: 'break-word'
+        }}>
           {id}. {title}
         </strong>
-        <div>
+        <div style={{
+          wordWrap: 'break-word'
+        }}>
           {body}
         </div>
       </div>
