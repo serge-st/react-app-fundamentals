@@ -20,3 +20,4 @@
 1. TypeScript
 2. React, React DOM, React Router
 3. [JSON Placeholder](https://jsonplaceholder.typicode.com/)
+4. Cacheing for API requests.
